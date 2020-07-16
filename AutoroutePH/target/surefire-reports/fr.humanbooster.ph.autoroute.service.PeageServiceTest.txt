@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: fr.humanbooster.ph.autoroute.service.PeageServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in fr.humanbooster.ph.autoroute.service.PeageServiceTest
+testAjouterPeage  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.PeageServiceTest.testAjouterPeage(PeageServiceTest.java:16)
+
+testAjouterPeagesInitiaux  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.PeageServiceTest.testAjouterPeagesInitiaux(PeageServiceTest.java:22)
+
+testRecupererPeage  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.PeageServiceTest.testRecupererPeage(PeageServiceTest.java:28)
+
+testRecupererPeages  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.PeageServiceTest.testRecupererPeages(PeageServiceTest.java:34)
+
+testMajPeage  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.PeageServiceTest.testMajPeage(PeageServiceTest.java:40)
+
+testSupprimerPeage  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.PeageServiceTest.testSupprimerPeage(PeageServiceTest.java:46)
+

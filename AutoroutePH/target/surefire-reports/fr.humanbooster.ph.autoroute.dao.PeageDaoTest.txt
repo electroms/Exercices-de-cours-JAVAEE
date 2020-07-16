@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: fr.humanbooster.ph.autoroute.dao.PeageDaoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 4, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in fr.humanbooster.ph.autoroute.dao.PeageDaoTest
+testCreate  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.PeageDaoTest.testCreate(PeageDaoTest.java:33)
+
+testFindOne  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.PeageDaoTest.testFindOne(PeageDaoTest.java:50)
+
+testFindAll  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.PeageDaoTest.testFindAll(PeageDaoTest.java:64)
+
+testUpdate  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.dao.PeageDaoTest.testUpdate(PeageDaoTest.java:75)
+
+testDelete  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.PeageDaoTest.testDelete(PeageDaoTest.java:83)
+

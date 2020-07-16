@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: fr.humanbooster.ph.autoroute.service.TarifServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in fr.humanbooster.ph.autoroute.service.TarifServiceTest
+testAjouterTarif  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.TarifServiceTest.testAjouterTarif(TarifServiceTest.java:16)
+
+testAjouterTarifsInitiaux  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.TarifServiceTest.testAjouterTarifsInitiaux(TarifServiceTest.java:22)
+
+testRecupererTarif  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.TarifServiceTest.testRecupererTarif(TarifServiceTest.java:28)
+
+testRecupererTarifs  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.TarifServiceTest.testRecupererTarifs(TarifServiceTest.java:34)
+
+testRecupererTarifsParPeage  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.TarifServiceTest.testRecupererTarifsParPeage(TarifServiceTest.java:40)
+
+testMajTarif  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.TarifServiceTest.testMajTarif(TarifServiceTest.java:46)
+
+testSupprimerTarif  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.TarifServiceTest.testSupprimerTarif(TarifServiceTest.java:52)
+

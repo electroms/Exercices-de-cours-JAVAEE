@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="fr.humanbooster.fx.cadeaux.servlets.CadeauServlet" project="CommandeCadeauG16" 
+    file="/CommandeCadeauG16/src/main/java/fr/humanbooster/fx/cadeaux/servlets/CadeauServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="41" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="fr.humanbooster.fx.cadeaux.servlets.ArticleServlet" project="CommandeCadeauG16" 
+    file="/CommandeCadeauG16/src/main/java/fr/humanbooster/fx/cadeaux/servlets/ArticleServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="1025" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="fr.humanbooster.fx.cadeaux.servlets.ConnexionServlet" project="CommandeCadeauG16" 
+    file="/CommandeCadeauG16/src/main/java/fr/humanbooster/fx/cadeaux/servlets/ConnexionServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="288" x="697" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="fr.humanbooster.fx.cadeaux.servlets.InscriptionServlet" 
+    project="CommandeCadeauG16" 
+    file="/CommandeCadeauG16/src/main/java/fr/humanbooster/fx/cadeaux/servlets/InscriptionServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="288" x="369" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="javax.servlet.http.HttpServlet" project="CommandeCadeauG16" 
+    file="C:/Users/skado/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="513" width="304" x="533" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

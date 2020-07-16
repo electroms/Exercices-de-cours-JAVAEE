@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: fr.humanbooster.ph.autoroute.dao.ClasseDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in fr.humanbooster.ph.autoroute.dao.ClasseDaoTest
+testCreate  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.ClasseDaoTest.testCreate(ClasseDaoTest.java:31)
+
+testFindOne  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.ClasseDaoTest.testFindOne(ClasseDaoTest.java:48)
+
+testFindAll  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.ClasseDaoTest.testFindAll(ClasseDaoTest.java:62)
+

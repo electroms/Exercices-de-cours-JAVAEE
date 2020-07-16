@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+#mire{
+    width:1000px;
+    height:600px;
+    border-collapse: collapse;
+}
+.rouge{
+    background-color:red;
+}
+.noir{
+    background-color:black;
+}
+.vert{
+    background-color:lime;
+}
+.bleu{
+    background-color:blue;
+}
+.blanc{
+    background-color:white;
+}
+.cyan{
+    background-color:cyan;
+}
+.jaune{
+    background-color:yellow;
+}
+.magenta{
+    background-color:magenta;
+}

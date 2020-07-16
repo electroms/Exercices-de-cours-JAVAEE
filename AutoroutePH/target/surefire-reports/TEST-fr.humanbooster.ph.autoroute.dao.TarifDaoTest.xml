@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.humanbooster.ph.autoroute.dao.TarifDaoTest" time="0.916" tests="6" errors="3" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pierre-Henry Barge\eclipse-workspace\AutoroutePH\target\test-classes;C:\Users\Pierre-Henry Barge\eclipse-workspace\AutoroutePH\target\classes;C:\Users\Pierre-Henry Barge\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.1\junit-jupiter-api-5.6.1.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\platform\junit-platform-commons\1.6.1\junit-platform-commons-1.6.1.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.1\junit-jupiter-engine-5.6.1.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\platform\junit-platform-engine\1.6.1\junit-platform-engine-1.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\PIERRE~1\AppData\Local\Temp\surefire18296728727129934789\surefirebooter10063968973290734088.jar C:\Users\Pierre-Henry Barge\AppData\Local\Temp\surefire18296728727129934789 2020-06-16T16-50-06_385-jvmRun1 surefire17078079211932639888tmp surefire_014757658493739375892tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pierre-Henry Barge\eclipse-workspace\AutoroutePH\target\test-classes;C:\Users\Pierre-Henry Barge\eclipse-workspace\AutoroutePH\target\classes;C:\Users\Pierre-Henry Barge\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.1\junit-jupiter-api-5.6.1.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\platform\junit-platform-commons\1.6.1\junit-platform-commons-1.6.1.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.1\junit-jupiter-engine-5.6.1.jar;C:\Users\Pierre-Henry Barge\.m2\repository\org\junit\platform\junit-platform-engine\1.6.1\junit-platform-engine-1.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pierre-Henry Barge"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Pierre-Henry Barge\eclipse-workspace\AutoroutePH"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\PIERRE~1\AppData\Local\Temp\surefire18296728727129934789\surefirebooter10063968973290734088.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="Pierre-Henry Barge"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pierre-Henry Barge\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PIERRE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="C:\Users\Pierre-Henry Barge\eclipse-workspace\AutoroutePH"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\composer;C:\Program Files\Symfony;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Pierre-Henry Barge\AppData\Local\Microsoft\WindowsApps;C:\Users\Pierre-Henry Barge\AppData\Roaming\Composer\vendor\bin;C:\Users\Pierre-Henry Barge\AppData\Local\GitHubDesktop\bin;C:\Users\Pierre-Henry Barge\AppData\Local\Microsoft\WindowsApps;;C:\Users\Pierre-Henry Barge\AppData\Roaming\npm;C:\Users\Pierre-Henry Barge\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pierre-Henry Barge\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testCreate" classname="fr.humanbooster.ph.autoroute.dao.TarifDaoTest" time="0.59">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.TarifDaoTest.testCreate(TarifDaoTest.java:55)
+</error>
+  </testcase>
+  <testcase name="testFindOne" classname="fr.humanbooster.ph.autoroute.dao.TarifDaoTest" time="0.047">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.TarifDaoTest.testFindOne(TarifDaoTest.java:76)
+</error>
+  </testcase>
+  <testcase name="testFindAll" classname="fr.humanbooster.ph.autoroute.dao.TarifDaoTest" time="0.099">
+    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at fr.humanbooster.ph.autoroute.dao.TarifDaoTest.testFindAll(TarifDaoTest.java:102)
+]]></failure>
+  </testcase>
+  <testcase name="testFindAllByIdPeageDepart" classname="fr.humanbooster.ph.autoroute.dao.TarifDaoTest" time="0.041">
+    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.dao.TarifDaoTest.testFindAllByIdPeageDepart(TarifDaoTest.java:109)
+</failure>
+  </testcase>
+  <testcase name="testUpdate" classname="fr.humanbooster.ph.autoroute.dao.TarifDaoTest" time="0.045">
+    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.dao.TarifDaoTest.testUpdate(TarifDaoTest.java:116)
+</failure>
+  </testcase>
+  <testcase name="testDelete" classname="fr.humanbooster.ph.autoroute.dao.TarifDaoTest" time="0.087">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at fr.humanbooster.ph.autoroute.dao.TarifDaoTest.testDelete(TarifDaoTest.java:124)
+</error>
+  </testcase>
+</testsuite>

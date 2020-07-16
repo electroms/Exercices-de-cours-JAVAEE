@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="fr.humanbooster.fx.docteurhb.dao.ParametreDao" project="docteurhbph" 
+    file="/docteurhbph/src/main/java/fr/humanbooster/fx/docteurhb/dao/ParametreDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="179" x="300" y="266"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="fr.humanbooster.fx.docteurhb.dao.PatientDao" project="docteurhbph" 
+    file="/docteurhbph/src/main/java/fr/humanbooster/fx/docteurhb/dao/PatientDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="218" x="42" y="266"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="fr.humanbooster.fx.docteurhb.dao.impl.ReleveDaoImpl" project="docteurhbph" 
+    file="/docteurhbph/src/main/java/fr/humanbooster/fx/docteurhb/dao/impl/ReleveDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="251" x="519" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="fr.humanbooster.fx.docteurhb.dao.impl.ParametreDaoImpl" project="docteurhbph" 
+    file="/docteurhbph/src/main/java/fr/humanbooster/fx/docteurhb/dao/impl/ParametreDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="179" x="300" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="fr.humanbooster.fx.docteurhb.dao.impl.PatientDaoImpl" project="docteurhbph" 
+    file="/docteurhbph/src/main/java/fr/humanbooster/fx/docteurhb/dao/impl/PatientDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="218" x="42" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="fr.humanbooster.fx.docteurhb.dao.ReleveDao" project="docteurhbph" 
+    file="/docteurhbph/src/main/java/fr/humanbooster/fx/docteurhb/dao/ReleveDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="251" x="519" y="266"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="9">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="10" name="releveDao"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="13">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="14" name="patientDao"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: fr.humanbooster.ph.autoroute.service.ClasseServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in fr.humanbooster.ph.autoroute.service.ClasseServiceTest
+testAjouterClasse  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.ClasseServiceTest.testAjouterClasse(ClasseServiceTest.java:16)
+
+testAjouterClassesInitiales  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.ClasseServiceTest.testAjouterClassesInitiales(ClasseServiceTest.java:22)
+
+testRecupererClasse  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.ClasseServiceTest.testRecupererClasse(ClasseServiceTest.java:28)
+
+testRecupererClasses  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at fr.humanbooster.ph.autoroute.service.ClasseServiceTest.testRecupererClasses(ClasseServiceTest.java:34)
+
