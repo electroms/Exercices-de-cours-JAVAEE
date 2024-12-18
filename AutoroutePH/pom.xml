@@ -14,7 +14,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>5.6.1</junit.version>
-		<mysql.connector.version>9.1.0</mysql.connector.version>
+		<mysql.connector.version>8.0.34</mysql.connector.version>
 	</properties>
 
 	<build>
